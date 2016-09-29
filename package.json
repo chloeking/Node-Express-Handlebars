@@ -1,0 +1,31 @@
+{
+  "name": "node-express-handlebars",
+  "version": "1.0.0",
+  "description": "A burger eating app using node, express, and handlebars",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chloeking/Node-Express-Handlebars.git"
+  },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "handlebars"
+  ],
+  "author": "Chloe King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chloeking/Node-Express-Handlebars/issues"
+  },
+  "homepage": "https://github.com/chloeking/Node-Express-Handlebars#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.6",
+    "mysql": "^2.11.1"
+  }
+}
